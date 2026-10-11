@@ -107,3 +107,6 @@ FHRPs allow multiple routers to present the appearance of a single virtual route
 
 - **NSF (Non-Stop Forwarding)**: Allows the router to continue forwarding packets even while the control plane recovers, working alongside SSO so routing protocols can rebuild gracefully without dropping traffic.
 - **CEF (Cisco Express Forwarding)**: A high-performance forwarding mechanism using a pre-computed forwarding table (FIB), reducing per-packet processing overhead. NSF relies on CEF to keep forwarding packets during the switchover while routing protocol information is recovered.
+
+
+![summary of sso and nsf gr nsr](images/summary-sso.png)
